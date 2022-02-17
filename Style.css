@@ -1,0 +1,102 @@
+/*global*/
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Oswald' , sans-serif;
+}
+h1,h2,h3, h4{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+p{
+    line-height: 2;
+}
+/*utilities*/
+.container{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
+}
+
+/*header*/
+header{
+    background-color: rgb(41, 151, 151);
+    height: 40vh;
+}
+/* menu*/
+nav{
+    background-color: rgb(54, 50, 50);
+    text-align: center;
+    padding: 30px;
+    height: 2vh;
+}
+nav a{
+    color: rgb(199, 189, 189);
+    text-decoration: none;
+    margin-right: 30px;
+}
+nav a:hover{
+    font-weight: bold;
+    color: rgb(177, 123, 228);
+}
+h1{
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px white;
+}
+/*main*/
+
+main{
+    background-color: rgba(128, 128, 128, 0.658);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+aside{
+    background-color:  rgb(41, 151, 151);
+    width: 350px;
+}
+.index-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/*footer */
+footer{
+    text-align: center;
+    background-color: gray;
+    height: 10vh;
+}
+.sm-items{
+    display: flex;
+    justify-content: center;
+}
+.sm-items{
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.project{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid rgb(85, 84, 84);
+    padding: 10px;
+    margin: 10px;
+}
+.project ul{
+    width: 300px;
+}
+.project p{
+    text-align: justify;
+}
+.contacts p{
+    text-align: center;
+}
